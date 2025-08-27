@@ -18,3 +18,20 @@ The **py-sudoku-maker** package provides an easy-to-use interface for generating
 - Import py_sudoku_maker
 - If you just want to generate a matrix for a sudoku board, call the `generate_sudoku()` function
 - If you want to print a complete sudoku board in your command line, call the `print_sudoku()` function
+
+A terminal call can look like:
+```
+$ uv run python -m py_sudoku_maker.module
+6 7 4  8 2 5  9 3 1  
+8 2 5  9 3 1  6 7 4  
+9 3 1  6 7 4  8 2 5  
+
+3 1 6  7 4 8  2 5 9  
+7 4 8  2 5 9  3 1 6  
+2 5 9  3 1 6  7 4 8  
+
+5 9 3  1 6 7  4 8 2  
+1 6 7  4 8 2  5 9 3  
+4 8 2  5 9 3  1 6 7 
+```
+
